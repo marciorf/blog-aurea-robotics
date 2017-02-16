@@ -1,6 +1,31 @@
 /* ==========================================================================
    0. Body  - Main css for body tag
    ========================================================================== */
+
+@font-face {
+    font-family: "Circular";
+    src: url("/assets/fonts/circular-light.woff2") format('woff');
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("/assets/fonts/circular-bold.woff2") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("/assets/fonts/circular-book.woff2") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("/assets/fonts/circular-light.woff2") format('woff');
+    font-style: italic;
+}
+
 html {
     font-family: Circular;
 }
@@ -165,7 +190,7 @@ body {
     color: #2e2f33;
     font-size:40px;
     font-weight: 400;
-    font-family: Circular; src: url("/assets/fonts/circular-bold.woff2");
+    font-family: Circular;
 }
 
 .post-meta {
