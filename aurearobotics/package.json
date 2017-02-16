@@ -2,7 +2,7 @@
     "name": "AureaRobotics",
     "description": "Blog theme da empresa Aurea Robotics",
     "demo": "https://demo.ghost.io",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "ghost": ">=0.9.0 <1.0.0"
     },
